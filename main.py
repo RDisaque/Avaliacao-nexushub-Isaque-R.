@@ -13,7 +13,7 @@ print("==============================")
 print("Nome da startup:", startup["nome"])
 print("Segmento:", startup["segmento"])
 print("Primeiro produto:", solucoes_ativas[0])
-print("==============================")
+print("-" * 30)
 
 #matriz das bancadas
 bancadas = [
@@ -29,7 +29,7 @@ print("Bancada N2:", bancadas[0][1])
 print("Bancada S1:", bancadas[1][0])
 print("Bancada S2:", bancadas[1][1])
 print("Legenda: 1 = Ocupado | 0 = Livre")
-print("==============================")
+print("-" * 30)
 
 arquivo = open("custos_cloud.csv", "r", encoding="utf-8")
 
@@ -68,4 +68,4 @@ print("==============================")
 print("Startup:", startup["nome"])
 print("Bancada: Bancada N1")
 print(f"Valor total da infraestrutura Cloud: R$ {total:.2f}")
-print("==============================")
+print("-" * 30)
